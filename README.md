@@ -94,7 +94,7 @@ npm install
 npm start
 ```
 
-Backend will run on 👉 `http://localhost:5000/`
+Backend will run on 👉 `http://localhost:3000/`
 
 ### 3️⃣ Setup frontend
 Open another terminal:
@@ -105,38 +105,6 @@ npm run dev
 ```
 
 Frontend will run on 👉 `http://localhost:5173/`
-
----
-
-## ☁️ Deployment
-
-### 🟢 Backend (Render)
-1. Push your backend code to GitHub  
-2. Create a new **Render Web Service**  
-3. Set environment variable:  
-   ```
-   MONGO_URI=<your MongoDB Atlas connection string>
-   ```
-4. Deploy and copy your Render API URL (e.g. `https://crud-server.onrender.com`)
-
-### 🟣 Frontend (Vercel)
-1. Go to Vercel → Import your repo  
-2. Add environment variable:
-   ```
-   VITE_BASE_URL=https://crud-server.onrender.com/api
-   ```
-3. Deploy frontend  
-4. Open your deployed app URL 🎉
-
----
-
-## 🧾 Resume Highlights
-
-- Developed a **MERN-based CRUD web app** to manage users with real-time updates.  
-- Implemented **REST APIs** in Node.js with Express and **MongoDB Atlas** as cloud database.  
-- Integrated frontend and backend using **Axios** and environment-based configuration.  
-- Deployed full stack app using **Vercel (frontend)** and **Render (backend)**.  
-- Strengthened knowledge in **React Hooks**, **API communication**, and **full-stack development** workflows.
 
 ---
 
