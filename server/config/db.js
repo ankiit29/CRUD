@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-// const mongoURI = 'mongodb+srv://crudapp:crudapp@cluster0.iydyt0r.mongodb.net/?retryWrites=true&w=majority';
-const mongoURI = 'mongodb://localhost:27017/crud';
+require('dotenv').config();
+const mongoURI = process.env.DB_URL;
 
 const connectDB = async () => {
   try {
